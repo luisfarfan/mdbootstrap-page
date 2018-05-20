@@ -20,7 +20,7 @@
         body,
         header,
         .carousel {
-            height: 20vh;
+            height: 60vh;
         }
 
         @media (max-width: 740px) {
@@ -28,7 +28,7 @@
             body,
             header,
             .carousel {
-                height: 100vh;
+                height: 60vh;
             }
         }
 
@@ -37,7 +37,7 @@
             body,
             header,
             .carousel {
-                height: 100vh;
+                height: 60vh;
             }
         }
 
@@ -107,36 +107,22 @@
     <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
 
         <!--Indicators-->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+        </ol>
         <!--/.Indicators-->
 
         <!--Slides-->
         <div class="carousel-inner" role="listbox">
 
             <!--First slide-->
-            <div class="carousel-item active">
-                <div class="view"
-                     style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/47.jpg'); background-repeat: no-repeat; background-size: cover;">
-
-                    <!-- Mask & flexbox options-->
-                    <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
-
-                        <!-- Content -->
-                        <div class="text-center white-text mx-5 wow fadeIn">
-                            <h1 class="mb-4">
-                                <strong>Seguro Estudiantil Individual</strong>
-                            </h1>
-
-                            <p>
-                                <strong>El seguro que mejor te conviene!</strong>
-                            </p>
-                        </div>
-                        <!-- Content -->
+            <a href="pago.html" style="cursor:pointer;">
+                <div class="carousel-item active" style="cursor:pointer;">
+                    <div class="view" style="background-image: url('img/header1.jpg'); background-repeat: no-repeat; background-size: cover;cursor:pointer;">
 
                     </div>
-                    <!-- Mask & flexbox options-->
-
                 </div>
-            </div>
+            </a>
             <!--/First slide-->
 
         </div>
